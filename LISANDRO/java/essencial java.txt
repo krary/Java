@@ -1,0 +1,31 @@
+java..
+
+si queremos usar un metodo que hemos heredado de una super class..
+     {dameInfo=super.dameSueldo();  }
+
+si queremos hacer un casting de una clase ..
+    {nombreClase zar=(nombreClase) Ejemplar[1];
+           zar.metodo(establece metodo);}
+
+si queremos crear una clase abstracta ..
+{abstract class persona{
+	private String nombre;
+	public persona(String nom) {
+		nombre=nom;
+	}
+	public String dameNombre() {
+		return nombre;
+	}
+	public abstract dameDescripcion();
+	
+}
+}
+si queremos crear enum..
+                     enum Talla {MINI, MEDIANA,GRANDE,MUY_GRANDE};
+note:ENUM VA FUERA DEL METODO MAIN
+
+si queremos usar enum..
+                  Talla s=Talla.MINI;
+Talla m=Talla.MEDIANA;
+Talla l=Talla.GRANDE;
+Talla xl=Talla.MUY_GRANDE;

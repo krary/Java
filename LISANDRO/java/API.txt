@@ -1,0 +1,10 @@
+ENTENDIENDO LA API ...
+
+METHOD SUMMARY
+
+TIPO Y MODIFICADOR|         METODO Y DESCRIPCION    
+                                                 |
+    void                                    |             actionPerformed(ActionEvent e)
+                                                               
+
+                                                                
