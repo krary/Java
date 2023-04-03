@@ -18,7 +18,7 @@
        tiempo.start();
        }
        
-5)Dentro de nuestro panel configuramos nuestra barra :            barra.setBounds(10,10,100,20)
+5)Dentro de nuestro panel configuramos nuestra barra :            barra.setBounds(10,10,100,20) a]eje x b] eje y c]largo  d] alto  
 6)lo adicionamos a nuestro panel :                                add(barra);
    
    
