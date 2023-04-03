@@ -1,0 +1,27 @@
+=================================================================================================================================0=
+                                CREANDO UNA BARRA DE PROGRESO
+================================================================================================================================
+1) importamos las class correspondientes dentro de nuestro proy : import.java.swing.JProgressBar;
+2) creamos una variable de tipo progres :                         JPorgressBar barra;
+3) la declaramos dentro de nuestro panel:                         barra = new JProgressBar();
+4) creamos un metodo donde configura nuestra barra :
+
+       private void metodo(){
+       Timer tiempo=new Timer(50,new ActionListener(){
+       int variable=0;
+       public void actionPerformed(ActionEvent e){
+       barra.setValue(valor);
+       valor = (valor + 1) % 100;
+       
+       }
+       });
+       tiempo.start();
+       }
+       
+5)Dentro de nuestro panel configuramos nuestra barra :            barra.setBounds(10,10,100,20)
+6)lo adicionamos a nuestro panel :                                add(barra);
+   
+   
+                                                                                                                   =======
+                                                                                                                   FIN
+                                                                                                                   =======
